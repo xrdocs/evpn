@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Pacific Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Pacific
+X-ENTOURAGE-TZID:1
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:WEBEX-MEETING CENTER-6.0303790-558822997
+X-ENTOURAGE_UUID:5FA77791-EADE-44CF-B872-ACD783E843DD
+X-MICROSOFT-EXCHANGE-ID:AAMkADQ5ZDg4MWFkLThiZDgtNGY3MS05MDc1LTkzZmViZDA4OT
+ E3MwBGAAAAAACkQsV7oGgzSo5VuKsxQaYzBwCREyuA1kDnS4nK2Vs1hmEYAAB4hjP4AABClXqP
+ Q62GTIlGSo9qbTvMAAEHnT80AAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:DwAAABYAAABClXqPQ62GTIlGSo9qbTvMAAEHAl+s
+DTSTAMP:20200323T065021Z
+DTSTART;TZID="Pacific Time (US & Canada)":20200326T081500
+DTEND;TZID="Pacific Time (US & Canada)":20200326T091500
+LAST-MODIFIED:20200323T065021Z
+SUMMARY:BGP Based Services Introduction
+DESCRIPTION:Hello\,\n\nYou scheduled the following Web seminar using
+  Webex.\n\nTopic: BGP Based Services Introduction\nThursday\, March 26\,
+  2020 BGP Based Services Introduction\n\nWhen: Thursday\, March 26\, 2020
+  at 8:15 AM - 9:15 AM.\n\nLocation:
+  https://cisco.webex.com/cisco/onstage/g.php?MTID=e74e497d9e2febb9ba23602e
+ edb52a24a 8:15 am\, Pacific Daylight Time (San Francisco\,
+  GMT-07:00)\n\nEvent number: 207 291 821\nEvent password: feMa3xG9a8r
+  (33623949 from phones)\n\n\nVideo Address: 207291821@webex.com\nYou can
+  also dial 173.243.2.68 and enter your meeting number.\n\n\nEvent address
+  for attendees:
+  https://cisco.webex.com/cisco/onstage/g.php?MTID=e74e497d9e2febb9ba23602e
+ edb52a24a\n\n-------------------------------------------------------\nAudi
+ o conference
+  information\n-------------------------------------------------------\nTo
+  receive a call back\, provide your phone number when you join the
+  event\, or call the number below and enter the access code.\nCall-in
+  toll-free number (US/Canada): +1-866-432-9903\nCall-in toll number
+  (US/Canada): +1-408-525-6800\nGlobal call-in numbers:
+  https://cisco.webex.com/cisco/globalcallin.php?MTID=e455c9f2ea14f8ecfdd7f
+ 0c1c660526df\nToll-free dialing restrictions:
+  https://www.webex.com/pdf/tollfree_restrictions.pdf\nAccess code: 207
+  291 821\n\nhttps://www.webex.com\n\nIMPORTANT NOTICE: This Webex service
+  includes a feature that allows audio and any documents and other
+  materials exchanged or viewed during the session to be recorded. You
+  should inform all meeting attendees prior to recording if you intend to
+  record the meeting. Please note that any such recordings may be subject
+  to discovery in the event of litigation. \n
+LOCATION:https://cisco.webex.com/cisco/onstage/g.php?MTID=e74e497d9e2febb9
+ ba23602eedb52a24a 
+ORGANIZER:MAILTO:jichalou@cisco.com
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+END:VEVENT
+END:VCALENDAR
