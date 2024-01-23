@@ -1,1 +1,1 @@
-﻿Home page for e.vpn.io
+﻿Home page for e-vpn.io
