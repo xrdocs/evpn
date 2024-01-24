@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Pacific Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Pacific
+X-ENTOURAGE-TZID:1
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:WEBEX-MEETING CENTER-6.0303790-558810532
+X-ENTOURAGE_UUID:9B27E0F7-13E5-4676-9752-2B0CAD66D881
+X-MICROSOFT-EXCHANGE-ID:AAMkADQ5ZDg4MWFkLThiZDgtNGY3MS05MDc1LTkzZmViZDA4OT
+ E3MwBGAAAAAACkQsV7oGgzSo5VuKsxQaYzBwCREyuA1kDnS4nK2Vs1hmEYAAB4hjP4AABClXqP
+ Q62GTIlGSo9qbTvMAAEHnT8yAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:DwAAABYAAABClXqPQ62GTIlGSo9qbTvMAAEHAlxH
+DTSTAMP:20200323T055114Z
+DTSTART;TZID="Pacific Time (US & Canada)":20200324T081500
+DTEND;TZID="Pacific Time (US & Canada)":20200324T091500
+LAST-MODIFIED:20200323T055114Z
+SUMMARY:BGP Based Services Introduction
+DESCRIPTION:Hello\,\n\nYou scheduled the following Web seminar using
+  Webex.\n\nTopic: BGP Based Services Introduction\nTuesday\, March 24\,
+  2020 8:15 BGP Based Services Introduction\n\nWhen: Tuesday\, March 24\,
+  2020 at 8:15 AM - 9:15 AM.\n\nLocation:
+  https://cisco.webex.com/cisco/onstage/g.php?MTID=ec999c581eff4111523eacc9
+ 903da29cc am\, Pacific Daylight Time (San Francisco\, GMT-07:00)\n\nEvent
+  number: 205 321 202\nEvent password: seD7pcKJb43 (73377255 from
+  phones)\n\nVideo Address: 205321202@webex.com\nYou can also dial
+  173.243.2.68 and enter your meeting number.\n\nEvent address for
+  attendees:
+  https://cisco.webex.com/cisco/onstage/g.php?MTID=ec999c581eff4111523eacc9
+ 903da29cc\n\n\n-------------------------------------------------------\nTo
+  start the online
+  event\n-------------------------------------------------------\nAt least
+  30 minutes before the starting time:\n\n1. Go to
+  https://cisco.webex.com/cisco/onstage/g.php?d=205321202&t=h\n2. Log in
+  to your host account if you have not yet done so.\n3. On the Event
+  Information page that appears\, click "Start
+  Now".\n\n-------------------------------------------------------\nAudio
+  conference
+  information\n-------------------------------------------------------\nTo
+  receive a call back\, provide your phone number when you join the
+  event\, or call the number below and enter the access code.\nCall-in
+  toll-free number (US/Canada): +1-866-432-9903\nCall-in toll number
+  (US/Canada): +1-408-525-6800\nGlobal call-in numbers:
+  https://cisco.webex.com/cisco/globalcallin.php?MTID=e19f4923025d623b948ad
+ 40f10ec5b777\nToll-free dialing restrictions:
+  https://www.webex.com/pdf/tollfree_restrictions.pdf\nAccess code: 205
+  321 202\n\nhttps://www.webex.com\n\nIMPORTANT NOTICE: This Webex service
+  includes a feature that allows audio and any documents and other
+  materials exchanged or viewed during the session to be recorded. You
+  should inform all meeting attendees prior to recording if you intend to
+  record the meeting. Please note that any such recordings may be subject
+  to discovery in the event of litigation. \n
+LOCATION:https://cisco.webex.com/cisco/onstage/g.php?MTID=ec999c581eff4111
+ 523eacc9903da29cc 
+ORGANIZER:MAILTO:jichalou@cisco.com
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+END:VEVENT
+END:VCALENDAR
