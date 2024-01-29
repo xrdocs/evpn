@@ -2,4 +2,4 @@
 
 
 # Segment Routing @xrdocs
-Segment Routing website @  <https://www.segment-routing.net>   or  <https://xrdocs.github.io/segment-routing>
+Segment Routing website @  <https://www.e-vpn.io>
