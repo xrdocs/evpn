@@ -1,0 +1,31 @@
+---
+layout: archive-full
+permalink: /open-software
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "Open Software Projects"
+description: 
+---
+<div class="container">
+  <div class="projects-grid-container">
+    {% assign sorted = site.open-software | where:"app","false" | sort: 'position' %}
+    {% for post in sorted %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+</div>  
+
+<!--
+<div class="middle-hero" style="background-image: url('{{ page.hero-image | relative_url }}');">
+  <div class="container">
+    <h1 class="middle-hero-title">SR-aware applications</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="projects-container">
+    {% assign sorted = site.open-software | where:"app","true" | sort: 'title' %}
+    {% for post in sorted %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div> 
+</div>-->

@@ -1,0 +1,15 @@
+<div class="rfc-item">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.link %}
+      <a href="{{ post.link }}">
+    {% else %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">
+    {% endif %}
+
+    <div class="article-title rfc-title">
+      {{ post.title }} 
+      <span class="rfc-status">{{ post.status }}</span>
+    </div>
+    </a>
+  </article>
+</div>

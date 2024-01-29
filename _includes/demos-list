@@ -1,0 +1,24 @@
+<article itemscope itemtype="http://schema.org/CreativeWork">
+  {% if post.link %}
+    <a href="{{ post.link }}">
+  {% else %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">
+  {% endif %}
+  
+    <div class="demo-box">
+      <div class="demo-image">
+        <img class="demo-img" src="{{ post.teaser | relative_url }}">
+      </div>
+      <div class="demo-title">{{ post.title }}</div> 
+      <p class="demo-excerpt">{{ post.excerpt }}</p>
+      <div class="news-info">
+        {% if post.author %}
+          {{ post.author }} 
+        {% else %}
+          Author Unknown,
+        {% endif %}
+        - {{ post.date | date: '%B %d, %Y' }}
+      </div>
+    </div>
+  </a>
+</article> 

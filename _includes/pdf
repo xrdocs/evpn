@@ -1,0 +1,17 @@
+{% assign pdf_link = include.link | strip | relative_url %}
+{% comment %}
+Each PDF uses a container identified by a unique ID per page
+... any way to generate this ID automatically?
+{% endcomment %}
+{% capture pdf_id %}{{ include.id }}{% endcapture %}
+{% if pdf_id == "" %}{% assign pdf_id = "the_only_pdf" %}{% endif %}
+
+{% unless pdf_link == "" %}
+{% comment %} see https://pdfobject.com/ {% endcomment %}
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="outer-embed pdf fitvidsignore">
+  <div id="{{ pdf_id }}" class="fitvidsignore"></div>
+</div>
+<script>PDFObject.embed(" {{ pdf_link }} ", "#{{ pdf_id }}");</script>
+{% endunless %}
+

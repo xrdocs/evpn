@@ -1,0 +1,45 @@
+# main links links
+main:
+
+  - title: "SRv6"
+    subfolderitems:
+      - page: "News" 
+        url: "srv6-news"
+
+      - page: "Demos" 
+        url: "srv6-demos"
+
+      - page: "Tutorials" 
+        url: "srv6-tutorials"
+
+      - page: "Conferences" 
+        url: "srv6-conferences"
+
+  - title: "SR MPLS"
+    subfolderitems:
+      - page: "News" 
+        url: "srmpls-news"
+
+      - page: "Demos" 
+        url: "srmpls-demos"
+
+      - page: "Tutorials" 
+        url: "srmpls-tutorials"
+
+      - page: "Conferences" 
+        url: "srmpls-conferences"
+
+  - title: "Path Tracing"
+    url: "path-tracing"
+  
+  - title: "IETF" 
+    url: "ietf"
+
+  - title: "Open Software"
+    url: "open-software"
+
+  - title: "Scientific Papers"
+    url: "scientific-papers"
+
+  - title: "Search"
+    url: "search"
