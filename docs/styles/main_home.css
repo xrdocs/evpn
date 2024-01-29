@@ -1,0 +1,4 @@
+.youtube {width:100%}
+@media only screen and (min-width: 800px){
+    .youtube{height: 600px;}
+}
